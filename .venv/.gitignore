@@ -1,0 +1,62 @@
+# -------- Python ----------
+# virtual envs
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# pip / pycache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# site-packages (some venvs put them under Lib or lib)
+Lib/
+lib/
+*/site-packages/
+
+# IDEs and editor files
+.vscode/
+.idea/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# -------- Node / React ----------
+# dependencies
+node_modules/
+
+# build outputs
+build/
+dist/
+.next/
+.out/
+.vite/
+.public/
+.cache/
+.parcel-cache/
+coverage/
+
+# env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# mac / OS
+.DS_Store
+
+# -------- Misc ----------
+*.log
+*.swp
