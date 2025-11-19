@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+openai
+gitpython
+python-dotenv
+flake8
+pytest
